@@ -1,49 +1,87 @@
-body{
+body {
     .merriweather-regular {
         font-family: "Merriweather", serif;
         font-weight: 400;
         font-style: normal;
-      }
-      
-      .merriweather-bold {
+    }
+
+    .merriweather-bold {
         font-family: "Merriweather", serif;
         font-weight: 700;
         font-style: normal;
-      }
-      
-      .merriweather-black {
+    }
+
+    .merriweather-black {
         font-family: "Merriweather", serif;
         font-weight: 900;
         font-style: normal;
-      }
-   margin: auto;
-   width: 75%;
-     
+    }
+
+    margin: auto;
+    width: 75%;
+
 }
 
 /*Banner section styles*/
-.banner{
+.banner {
     text-align: center;
     background-image: url(../resources/Banner\ Image.png);
     background-size: cover;
     background-position: center;
     height: 70vh;
 }
-.banner-title{
+
+.banner-title {
     font-size: 32px;
     font-weight: 400;
     color: #FFF;
     padding-top: 65px;
-   
-    
+
+
 }
-.banner-description{
+
+.banner-description {
     font-size: 72px;
     font-weight: 900;
     color: #FFF;
 
 }
+
 /*Main Section Styles*/
-.discount{
+.discount {
+    text-align: center;
+    margin-top: 85px;
+}
+
+.off-section {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.better-deals {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+.categories {
+    color: #070211;
     
+    
+    font-size: 48px;
+    font-weight: 700;
+}
+.new-year-photo{
+    align-items: center;
+    text-align: center;
+}
+/*Party section styles*/
+.party{
+    border: 2px;
+    border-color: #F00;
+    width: 1320px;
+    height: 600px;
+   
 }
