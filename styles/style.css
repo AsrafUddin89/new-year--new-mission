@@ -184,14 +184,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .image-row-two {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 
 }
 
@@ -263,6 +263,9 @@ body {
     align-items: center;
     padding-top: 100px;
     color: #FFF;
+}
+.calling{
+    display: flex;
 }
 .footer-image{
     display: flex;
