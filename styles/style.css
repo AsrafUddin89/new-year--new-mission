@@ -201,6 +201,12 @@ body {
     border-radius: 16px;
 
 }
+.gift-items:hover{
+    cursor: pointer;
+    border:aquamarine solid;
+    border-color:aquamarine;
+    border-radius: 16px; 
+}
 
 /*subscribe-section styles*/
 .subscribe-section {
