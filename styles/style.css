@@ -29,6 +29,7 @@ body {
     background-size: cover;
     background-position: center;
     height: 70vh;
+    border-radius: 12px;
 }
 
 .banner-title {
@@ -89,6 +90,7 @@ body {
     background-image: url(../resources/Vectorrr.png);
     background-size: cover;
     background-position: center;
+    border-radius: 12px;
 }
 
 .party-title {
@@ -153,9 +155,7 @@ body {
     font-weight: 700;
 }
 
-.gift-section {
-    width: 75%;
-}
+
 
 .gift-title {
     color: #F00;
@@ -206,6 +206,7 @@ body {
 .subscribe-section {
     text-align: center;
     margin-top: 125px;
+    border-radius: 12px;
     background-color: rgba(255, 0, 0, 0.05);
 }
 
@@ -239,4 +240,35 @@ body {
     background-color: #FF0000;
     border-radius: 0px 50px 50px 0px;
     border-color: rgba(255, 0, 0, 0.05);
+}
+
+/* Footer section styles*/
+.footer-section{
+    margin-top: 110px;
+    margin-bottom: 55px; 
+    max-width: 100%;
+    height: 500px;
+    background: #070211;
+    
+}
+.contact-details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    color: #FFF;
+}
+.footer-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 55px;
+}
+.caution{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF;
+    padding-top: 100px;
 }
