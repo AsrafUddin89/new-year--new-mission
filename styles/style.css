@@ -68,20 +68,44 @@ body {
 
 .categories {
     color: #070211;
-    
-    
+
+
     font-size: 48px;
     font-weight: 700;
 }
-.new-year-photo{
+
+.new-year-photo {
     align-items: center;
     text-align: center;
 }
+
 /*Party section styles*/
-.party{
-    border: 2px;
-    border-color: #F00;
-    width: 1320px;
+.party {
+    display: flex;
     height: 600px;
-   
+    margin-top: 120px;
+    align-items: center;
+    padding-left: 130px;
+
+    background-image: url(../resources/Vectorrr.png);
+}
+
+.party-title {
+    font-size: 64px;
+    font-weight: 900;
+    color: #FFF;
+}
+
+.party-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn-party {
+    background-color: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
 }
